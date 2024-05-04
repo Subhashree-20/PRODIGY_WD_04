@@ -1,0 +1,99 @@
+/* Styles for phones (max-width: 530px) */
+
+/* Navbar Styles */
+.navbar{
+    /* position: relative; */
+    width: 100%;
+    
+}
+.navbar a{
+    font-size: 14px;
+}
+
+/* Main Section Styles */
+.main1 img{
+    width: 100px;
+    height:150px;
+}
+.main {
+    padding: 10px;
+   
+}
+.home{
+    margin: 10px;
+}
+/* Heading Styles */
+.headings {
+    font-size: 20px;
+}
+
+/* Project Box Styles */
+.project-box,
+.skills-box,
+.strength {
+    max-width: 100%;
+    margin: 0;
+}
+
+/* Form Styles */
+.form {
+    max-width: 100%;
+}
+
+.project-box {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Skills Box Styles */
+.skills-box {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.strength {
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+
+/* Profile Pic Styles */
+.profile-pic {
+    width: 200px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    margin-bottom:30px;
+    margin-left:15%;
+}
+.img {
+    
+    margin-left: 107px;
+    object-fit: cover;
+}
+
+/* Intro Text Styles */
+.intro-text {
+    padding: 15px;
+}
+
+/* Media-specific styles for phones */
+@media screen and (max-width: 530px) {
+    /* Add styles for phones */
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main h1 img {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    
+}

@@ -1,0 +1,313 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #022130;
+    
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #011431d7;
+    overflow: hidden;
+    position: fixed; 
+    width:100%;
+    padding-left: 30%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    margin-right: 40px;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+
+/* Heading Styles */
+.headings {
+    color: #cdffc3;
+    text-align: center;
+}
+
+/* Form Styles */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input,
+textarea,
+.btn {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+   
+    border: 1px solid #0f468d;
+    border-radius: 5px;
+}
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Project Box Styles */
+.project-box {
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.project-box h2 {
+    color: #3498db;
+}
+
+.project-box p {
+    color: #555;
+}
+
+/* Skills Container Styles */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Skills Box Styles */
+.skills-box {
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.skills-box h2 {
+    color: #3498db;
+}
+
+.skills-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.skills-box li {
+    color: #555;
+}
+
+/* Strengths Container Styles */
+.strengths-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Strength Styles */
+.strength {
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.strength i {
+    color: #3498db;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.strength p {
+    color: #555;
+}
+
+
+/* About Container Styles */
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+/* Profile Pic Styles */
+.profile-pic {
+    width: 350px; /* Adjust the size as needed */
+    height: 340px; /* Adjust the size as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff; /* Border color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+     margin-bottom:30px;
+    margin-left:37%;
+}
+
+.img {
+    width: 140%;
+    height: 100%;
+    margin-left: 1px;
+    object-fit: cover;
+    
+}
+
+/* Intro Text Styles */
+.intro-text {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+    background: linear-gradient(to top, rgb(0, 29, 15) 50%, white 50%);
+    background-size:100% 200% ;
+    transition: all .8s;
+}
+.intro-text:hover{
+    background-position: left bottom ;
+    color: white;
+    border:none;
+    box-shadow: 0 0 20px rgb(0, 46, 23) ;
+}
+
+.intro-text h2 {
+    color: #3498db;
+}
+
+.intro-text p {
+    color: #555;
+}
+
+.skills-box,.project-box{
+        display: flex;
+        flex-direction: column;
+        width:250px;
+        height:210px;
+        border:1px solid rgb(3, 0, 0);
+        margin:10px;
+        align-items: center;
+        text-align: justify;
+        padding: 10px;
+        border-radius: 25px;
+        background: linear-gradient(to top, rgb(0, 29, 15) 50%, white 50%);
+        background-size:100% 200% ;
+        transition: all .8s;
+    }
+    .strength{
+        display: flex;
+        flex-direction: column;
+        width:270px;
+        height:100px;
+        border:1px solid rgb(3, 0, 0);
+        margin:10px;
+        align-items: center;
+        text-align: justify;
+        padding: 10px;
+        border-radius: 25px;
+        background: linear-gradient(to top, rgb(0, 29, 15) 50%, white 50%);
+        background-size:100% 200% ;
+        transition: all .8s;
+
+    }
+    
+    .skills-box:hover,.project-box:hover,.strength:hover{
+        background-position: left bottom ;
+        color: white;
+        border:none;
+        box-shadow: 0 0 20px rgb(0, 46, 23) ;
+    
+    }
+    
+
+.input{
+    border-radius: 30px;
+}
+.btn{
+    border-radius: 30px;
+    background-color: #526792;
+}
+
+
+#home {
+    display: grid;
+    height: 527px;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Adjust the gap between columns as needed */
+    background-color: #022130; /* Background color for the entire section */
+    padding: 40px; /* Add some padding for spacing */
+}
+
+.main1 img {
+    object-fit: cover;
+    background-color: #2955cfd0;
+    /* Ensure the image doesn't overflow its container */
+    border-radius: 100px; /* Add a border radius for a rounded appearance */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Adjust the size as needed */
+    height: 340px; /* Adjust the size as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff; /* Border color */
+    box-shadow: 0 0 10px rgba(10, 16, 90, 0.1); /* Optional: Add a subtle shadow */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom:10px;
+    margin-left:25%;
+}
+
+.main {
+    text-align: center; /* Center text in the .main div */
+}
+
+h1 img {
+    width: 100%; /* Make sure the typing animation fills the container */
+}
+
+.btn1 {
+    background-color: #4CAF50; /* Add your preferred background color */
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.btn1:hover {
+    background-color: #45a049; /* Change color on hover */
+}

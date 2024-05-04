@@ -1,0 +1,71 @@
+/* Styles for tablets (max-width: 800px) */
+
+/* Navbar Styles */
+.navbar  {
+    float: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Main Section Styles */
+.main1 img{
+        width: 190px;
+        height:190px;
+}
+.main img {
+    /* padding: px; */
+    max-width: 100%;
+
+}
+
+/* Heading Styles */
+.headings {
+    font-size: 24px;
+   
+}
+
+/* Project Box Styles */
+.project-box,
+.skills-box,
+.strength {
+    max-width: 90%;
+}
+
+/* Form Styles */
+.form {
+    max-width: 90%;
+}
+
+.project-box {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+/* Skills Box Styles */
+.skills-box {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+
+/* Strength Styles */
+.strength {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+
+/* Profile Pic Styles */
+.profile-pic {
+    flex: 0 0 90%;
+    margin-bottom: 20px;
+    /* margin-right: 30px; */
+}
+
+/* Intro Text Styles */
+.intro-text {
+    flex: 0 0 100%;
+}
